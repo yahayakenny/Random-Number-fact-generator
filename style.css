@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: teal;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    padding:30px;
+    color: white;
+}
+
+#number {
+    padding: 10px;
+    border-radius: 5px;
+    border-color: brown;
+    width: 180px;
+    text-align: center;
+}
+
+.submit {
+    padding: 5px;
+    border-radius: 10px;
+    width: 60px;
+    
+}
+
+#display-fact {
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
