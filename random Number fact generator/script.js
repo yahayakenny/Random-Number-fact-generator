@@ -2,10 +2,6 @@ const submit = document.getElementById('submit');
 const numberInput = document.getElementById('number');
 const displayFact = document.getElementById('display-fact')
 
-
-//Event listener 
-submit.addEventListener('click', getFact)
-
 function getFact() {
     let number = numberInput.value
     fetch(`http://numbersapi.com/${number}`)
@@ -13,6 +9,7 @@ function getFact() {
     .then (data => {
         displayFact.innerHTML = data;
     })
-
-
 }
+
+//Event listener 
+submit.addEventListener('click', getFact)
